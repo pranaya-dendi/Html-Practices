@@ -1,0 +1,31 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.circle{
+    /* position: absolute; */
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    /* border-radius: 50%;
+    animation: circle 1s linear infinite; */
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+/* *{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Fredoka One", cursive;
+} */
